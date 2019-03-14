@@ -10,7 +10,7 @@ const moviesReducer = (state = initialState, action) => {
 
     switch (action.type) {
         case ALL_MOVIES: {
-            newState.allMovies = action.payload
+            newState.allMovies = action.payload.movies
             return newState
         }
         default: {

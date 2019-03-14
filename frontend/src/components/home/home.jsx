@@ -1,14 +1,13 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-class Home extends Component {
-    
-    render () {
-        return (
-            <div className='homeContainer'>
-                Hello
+const Home = () => {
+    return (
+        <div className='homePage'>
+            <div className='header'>
+                <h1>Welcome to MovieApp</h1>
             </div>
-        )
-    }
+        </div>
+    )
 }
 
 export default Home;

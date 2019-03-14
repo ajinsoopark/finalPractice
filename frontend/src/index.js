@@ -10,8 +10,8 @@ import store from './store/index';
 
 ReactDOM.render(<BrowserRouter>
                     <ScrollToTop>
-                        <Provider >
-                            <App store={ store }/>
+                        <Provider store={ store }>
+                            <App />
                         </Provider>
                     </ScrollToTop>
                 </BrowserRouter>, document.getElementById('root'));
