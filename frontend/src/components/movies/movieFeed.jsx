@@ -1,5 +1,8 @@
 import React, { Component } from 'react';
 
+import MoviePost from './moviePost';
+import '../../stylesheets/movies.css';
+
 class MovieFeed extends Component {
     constructor () {
         super ()
@@ -39,6 +42,9 @@ class MovieFeed extends Component {
                                value={ this.state.searchedValue }/>
                         <input className='searchSubmit' type='submit' value='Search'/>
                     </form>
+                </div>
+                <div className='movieFeed'>
+                    {movie}
                 </div>
             </div>
         )
