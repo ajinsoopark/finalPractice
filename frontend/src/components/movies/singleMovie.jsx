@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
+import axios from 'axios';
 
 import Comment from '../comments/comment';
+
 
 class SingleMovie extends Component {
 
@@ -21,7 +23,7 @@ class SingleMovie extends Component {
     
     handleSubmit = () => {
         if (this.state.rating) {
-            
+            // axios.post()
         }
     }
 
